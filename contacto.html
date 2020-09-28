@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Monkey Dev - Contacto</title>
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link type="text/css" rel="stylesheet"  href="css/main.css">
+        <script src="https://kit.fontawesome.com/6014fdca0b.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <h1 class="web-title"><a class="header-link" href="index.html">Monkey Dev</a> <i class="fas fa-code"></i></h1>
+            <nav>
+                <a class="btn-nav" href="index.html">Inicio</a>
+                <a class="btn-nav" href="nosotros.html">Nosotros</a>
+                <a class="btn-nav" href="proyectos.html">Proyectos</a>
+                <a class="btn-nav" href="contacto.html">Contacto</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2 class="sect-title">Contacto</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.39707532423!2d-58.573384947565984!3d-34.615461116377574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1600720043319!5m2!1ses-419!2sar" width="100%" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <p class="sect-desc">Para comunicarte con nosotros podes <a href="mailto:ejemplo@ejemplo.com">Enviarnos un email</a> o completar el formulario de contacto.</p>
+                <h3 class="sect-subtitle">Formulario de contacto</h3>
+                <form class="form-cont" action="show_data.html" target=""_BLANK>
+                    <label for="name">Nombre: </label> <input required name="name" type="text" placeholder="Ingrese su nombre..." tabindex="1"><br>
+                    <label for="lname">Apellido: </label><input required name="lname" type="text" placeholder="Ingrese su apellido..." tabindex="2"><br>
+                    <label for="email">Email: </label> <input required name="email" type="email" placeholder="su@email.com" tabindex="3"><br>
+                    <label for="phone">Telefono: </label><input required name="phone" type="number" placeholder="Ingrese su celular..." tabindex="4"><br>
+                    <label for="product">Elija las caracterisiticas de su sitio: </label> <input required type="checkbox" name="product" value="web" tabindex="5"> Web Basica +  <input type="checkbox" name="product" value="blog" tabindex="6"> Blog +  <input type="checkbox" name="product" value="store" tabindex="7"> Tienda<br>
+                    <label for="promo">Quiere recibir promociones en su email? </label> <input required type="radio" name="promo" value="si" tabindex="8">Si  - <input type="radio" name="promo" value="no" tabindex="9">No <br><br>
+                    <label for="comments">Comentarios adicionales: </label><br> <textarea required name="comments" placeholder="Comentarios adicionales..." tabindex="10"></textarea><br>
+                    <input type="submit" value="Enviar!" tabindex="11">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <span><p>Copyright © 2020 - Lisandro Luna para <b>Curso de Desarrollo Full Stack Codo a Codo</b></p></span>
+        </footer>
+    </body>
+</html>
